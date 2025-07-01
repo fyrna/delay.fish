@@ -115,7 +115,7 @@ main() {
 
   $verbose && echo "[delay] Will execute after $sleep_time seconds: $*"
 
-  # execute command
+  sleep "$sleep_time"
   "$@"
 }
 
